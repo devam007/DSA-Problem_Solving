@@ -1,6 +1,6 @@
 #include <bits/stdc++.h>
 using namespace std;
-/*
+
 bool checkpalindrome(string s,int i){
     if(i>=s.size()/2){
         return true;
@@ -22,7 +22,7 @@ bool sorted(int arr[],int i){
     if(arr[i]>arr[i+1]) return false;
     return sorted(arr,i+2);
 }
-*/
+
 //Given an integer num, repeatedly add all its digits until the result has only one digit.
 int sumofdigit(int n){
     if(n/10==0) return n;
@@ -33,7 +33,7 @@ int sumofdigit(int n){
     }
     return sumofdigit(sum);
 }
-/*
+
 int coun;
 int p=2;
 
@@ -46,9 +46,9 @@ int isprime(int n){
     p++;    
     return isprime(n);
 }
-*/
+
 int main(){
-    /*
+  
     string s;
     cin>>s;
     bool ans = checkpalindrome(s,0);
@@ -67,7 +67,6 @@ int main(){
     int c=45;
     bool ifprime=isprime(c);
     cout<<ifprime<<endl;
-    */
 
     int number=7;
     int sumofdigits=sumofdigit(number);
